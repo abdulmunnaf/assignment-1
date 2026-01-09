@@ -98,6 +98,10 @@ nav li a{
      margin-top: 20px ;
 }
 
+.btn-1:hover{
+    background-color: rgb(100, 132, 100) ;
+    cursor: pointer ;
+}   
 .btn-2{
     background-color: white ;
     border: none ;
