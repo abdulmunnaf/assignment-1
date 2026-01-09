@@ -44,7 +44,7 @@ nav li a{
 .header-content{
     height: 90vh ;
     width: 100% ;
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('assets/hero-bg.png');
     display: flex;
     flex-direction: column ;
     align-items: center ;
