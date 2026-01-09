@@ -113,6 +113,10 @@ nav li a{
      margin-top: 20px ;
      margin-left: 20px ;
 }
+.btn-2:hover{
+    background-color: rgb(220, 220, 220) ;
+    cursor: pointer ;
+}
 
 .notes-fail{
     text-align: center ;
@@ -220,8 +224,12 @@ nav li a{
     margin-top: 20px;
     margin-bottom: 20px ;
 }
+.rady-btn:hover{
+    background-color: rgb(100, 132, 100) ;
+    cursor: pointer ;
+}
 .footer {
-  background-color: #222;
+  background-color: rgb(25, 25, 42);
   color: #fff;
   padding: 40px 20px 20px;
 }
