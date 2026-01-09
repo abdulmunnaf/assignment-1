@@ -9,6 +9,7 @@ nav ul{
     flex-direction: row ;
     align-items: center ;
     justify-content: space-between;
+    
 
 
 }
@@ -16,7 +17,8 @@ nav ul{
 .nav-links {
     display: flex ;
     justify-content: space-around ;
-     gap: 10px;
+    gap: 10px;
+    
 }
 nav li a{
     text-decoration: none ;
@@ -27,7 +29,7 @@ nav li a{
 .btn{
     background-color: darkgreen;
     border: none ;
-    padding: 5px; 10px ;
+    padding: 10px; 
     border-radius: 4px ;
     font-size: 17px ;
     font-weight: bold ;
@@ -37,6 +39,10 @@ nav li a{
     height: 90vh ;
     width: 100% ;
     background-image: url('/assets/hero-bg.png');
+    display: flex;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center ;
 
 }
 
@@ -67,4 +73,182 @@ nav li a{
     color: green ;
     font-weight: bold ;
 
+}
+
+.p{
+    font-size: 20px ;
+    color: white ;
+    margin-top: 10px ;
+}
+
+.btn-1{
+    background-color: darkgreen;
+    border: none ;
+    padding: 10px;  
+    border-radius: 4px ;
+    font-size: 20px ;
+    font-weight: bold ;
+     color: white ;
+     margin-top: 20px ;
+}
+
+.btn-2{
+    background-color: white ;
+    border: none ;
+    padding: 10px; 
+    border-radius: 4px ;
+    font-size: 20px ;
+    font-weight: bold ;
+     color: darkgreen ;
+     margin-top: 20px ;
+     margin-left: 20px ;
+}
+
+.notes-fail{
+    text-align: center ;
+    margin-top: 50px ;
+    padding: 20px ;
+}
+
+.box{
+    display: flex ;
+    gap: 20px ;
+    justify-content: center ;
+
+    
+}
+
+.card{
+    background-color: rgb(234, 223, 223) ;
+    padding: 20px ;
+    border-radius: 10px ;
+    width: 300px ;
+    height: 200px ;
+    text-align: center ;
+    
+}
+.card img{
+    width: 50px ;
+    height: 50px ;
+    background-color: tomato;
+    border-radius: 50% ;
+}
+.card h3{
+    margin-top: 10px ;
+    font-size: 25px ;
+    color: rgb(0, 0, 0) ;
+}
+.card p{
+    
+    color: rgb(64, 62, 62) ;
+}   
+
+.knowledge{
+
+    margin-top: 4px;
+    
+}
+.f{
+    padding-right: 400px ;
+    
+}
+.f h5{
+    color:green
+}
+.f p{
+    color:grey;
+}
+
+
+.n{
+
+    display: flex;
+    justify-content: space-between ;
+    align-items: center ;
+    margin: auto;
+}
+
+.m{
+    padding-top: 30px ;
+    
+}
+.o{
+    display: flex;
+    text-align: center;  
+     
+}
+
+.k{
+    background-color: lightgray;
+    height: 300px ;
+    width: 100% ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    display: flex;              
+    justify-content: center;   
+    align-items: center;        
+}
+
+.d{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+    text-align: center;
+    padding: 20px ;
+}
+.rady-btn{
+    background-color: darkgreen;
+
+    border: none ;
+    padding: 10px; 
+    border-radius: 4px ;
+    font-size: 20px ;
+    font-weight: bold ;
+    color: white ;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #aaa;
 }
