@@ -33,7 +33,13 @@ nav li a{
     border-radius: 4px ;
     font-size: 17px ;
     font-weight: bold ;
-     color: white ;
+    color: white ;
+    
+
+}
+.btn:hover{
+    background-color: rgb(100, 132, 100) ;
+    cursor: pointer ;
 }
 .header-content{
     height: 90vh ;
